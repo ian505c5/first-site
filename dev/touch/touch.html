@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+  	<!-- ABOUT this page -->
+	<title>Ian Mathews - Web Developer</title>
+	<meta name="description" content="This page contains, etc...">
+	<meta name="keywords" content="keyword1, keyword1, keyword1, etc..."  />
+	<meta name="author" content="Ian Mathews">
+	
+	<!--  VIEWPORT optimized specific to content -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="media/img/favicon.png">
+	
+	<!-- CSS -->
+	<link rel="stylesheet" href="../../css/main.css?v=2">
+	<!-- JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="../../js/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+	  $(window).load(function() {
+	    $('.flexslider').flexslider();
+	  });
+	</script>
+</head>
+
+<body>
+	<div class="background">
+		<div class="box zero2"></div>
+		<div class="box zero"></div>
+		<div class="box one"></div>
+		<div class="box two"></div>
+		<div class="box three"></div>
+		<div class="box four"></div>
+		<div class="box five"></div>
+		<div class="box six"></div>
+		<div class="box seven"></div>
+		<div class="box eight"></div>
+		<div class="box nine"></div>
+	</div>
+		<div class="pagewrap">
+			<header>
+				<div class="logo">
+					<h1><a href="../../index.html">Ian Mathews</a> / Touch</h1>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="../../about/about.html">/ about</a></li>
+						<li><a href="http://ian505c5.tumblr.com">/ blog</a></li>
+						<li><a href="../../contact/contact.html">/ contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="mainnav">
+					<a class="mainthird" href="../dev.html">Dev</a>
+					<a class="mainthird" href="../../ux/ux.html">UX</a>
+					<a class="mainthird" href="../../ad/ad.html">ADV</a>
+			</div>
+				<div class="description">
+					<h3>Project Overview</h3>
+					<p>One of our first major projects in Web Development 2: Responsive Design was to recreate the Touch Agency's <a href="http://www.thetouchagency.co.uk/">website </a> based on a set of photoshop comps. Each comp represented a different layout based on what resolution the user was viewing the site at. Thus in order to recreate this effect, we used CSS media queries to target specific breakpoints where the layout would adjust.</p>
+					<br>
+					Technologies Used
+					<ul>
+						<li><b>HTML/CSS</b></li>
+					</ul>
+				</div>
+			<div class="projcontent">
+				<div class="projtitle">
+					<h1>Touch Agency</h1>
+					View my reconstruction - <a href="http://www.circuslabs.net/~ian.mathews/lab5/index.html">Here</a>
+				</div>
+				<div class="flexsliderc">
+					<div class="flexslider">
+					  <ul class="slides">
+					    <li>
+					      <img src="../../media/dev/touch/1440.png" />
+					    </li>
+					    <li>
+					      <img src="../../media/dev/touch/1024.png" />
+					    </li>
+					    <li>
+					      <img src="../../media/dev/touch/480.png" />
+					    </li>
+					    <li>
+					      <img src="../../media/dev/touch/320.png" />
+					    </li>
+					  </ul>
+					</div>
+				</div>
+				<div class="projtext tbl" id="challenge">	
+					<p><h3>Introduction</h3></p>
+					<p>Touch's agency site is a great example of smooth responsive design, and features breakpoints at multiple resolutions. This allows the users to have a consistent viewing experience across a variety devices and orientations. </p>
+				</div>
+				<div class="projtext toj" id="thinking">
+					<p><h3>The Process</h3></p>
+					<p>The developer at Touch had a little more experience than I did at the time of this writing, and relied on Javascript to arrange and sort their elements. We were limited to only HTML/CSS, and thus had to be creative in our solution. The way I went about was to create .div classes for the largest common boxes. The next step was simply a matter of organizing the the smaller elements within these boxes. And finally, you set all the large container to float: left, and if you followed your comp specs correctly, the boxes should fall into place at each break point. Also, I really liked Touch’s rollover animations, but again, they used Javascript which is a little over my head at this point. So I attempted to mimic them with a :hover box-shadow and opacity style.</p>
+				</div>
+				<div class="projtext tbl" id="solution">
+					<p><h3>Final Thoughts</h3><p>
+					<p>This was a definite challenge compared to previous assignments. It really showed that while responsive design may be a pain to layout at first, if you approach it methodically with a plan in hand, the pieces tend to fall into place relatively easily.</p>
+				</div>
+			</div>
+		</div>
+
+</body>
+</html>
