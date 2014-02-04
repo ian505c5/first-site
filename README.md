@@ -1,4 +1,3 @@
-portfolio
+Very first site I ever made, here for purely nostalgia purposes
 =========
-
-My portfolio site
+Warning: Ugly code/design ahead
